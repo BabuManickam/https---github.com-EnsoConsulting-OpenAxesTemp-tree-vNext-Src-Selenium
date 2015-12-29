@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OpenAxes Test Suite">
+  <test verbose="2" name="OpenAxes Smoke tests">
+    <classes>
+   	  <class name="src.selenium.enterprise.TestUploadFile"/>      
+      <class name="src.selenium.enterprise.TestUploadFolder"/>
+      <class name="src.selenium.enterprise.TestCreateInvestigation"/>     
+	    <class name="src.selenium.enterprise.TestEditInvestigation"/>
+	    <class name="src.selenium.enterprise.TestMailAttachments"/>
+	    <class name="src.selenium.enterprise.TestImportAccounts"/>
+    </classes>
+  </test>
+</suite> 
